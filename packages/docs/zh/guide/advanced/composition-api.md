@@ -23,7 +23,8 @@ export default {
       router.push({
         name: 'search',
         query: {
-          ...route.query,
+          ...route.query,,
+          ...query,
         },
       })
     }
